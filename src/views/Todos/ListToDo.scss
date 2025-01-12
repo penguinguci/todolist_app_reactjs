@@ -1,0 +1,44 @@
+.list-todo-container {
+    .add-todo {
+        input {
+            height: 25px;
+            width: 250px;
+            margin-right: 20px;
+        }
+        button {
+            font-size: 0.8em;
+        }
+
+    }  
+
+    .list-todo-content {
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 30px;
+
+        .todo-child {
+            &:first-child {
+                padding-top: 10px;
+                border-top: 1px solid grey;
+            }
+
+            height: 40px;
+            border-bottom: 1px solid grey;
+            margin: 10px;
+            
+            span {
+                margin-right: 50px;
+            }
+
+            button {
+                font-size: 0.8em;
+                margin: 0 5px;
+            }
+
+            .textEdit {
+                height: 25px;
+                width: 150px;
+            }
+        }
+    }
+}   
